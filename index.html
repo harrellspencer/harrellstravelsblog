@@ -33,6 +33,23 @@
 </head>
 
 <body>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '188463174836574',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 
     <div class="brand">the harrell's travels</div>
     <div class="address-bar"></div>
@@ -95,6 +112,7 @@
                         <br>
                         <small>December 2015</small>
                     </h2>
+
                     <img class="img-responsive img-border img-full" src="http://i.imgur.com/rD1aDZG.jpg" alt= "" title= "The Na Pali Coast">
                     <img class="img-responsive img-border img-full" src="img/IMG_4969.jpg" alt="">
                     <img class="img-responsive img-border img-full" src="img/IMG_4977.jpg" alt="">
@@ -153,11 +171,10 @@
                     <img class="img-responsive img-border img-full" src="img/IMG_5442.jpg" alt="">
                     <img class="img-responsive img-border img-full" src="img/IMG_5088.jpg" alt="">
                     <img class="img-responsive img-border img-full" src="img/IMG_5096.jpg" alt="" title= "The Na Pali Coast">
-                    <a href="http://www.theshrimpstation.com" target="_blank"><img class="img-responsive img-border img-full" src="img/IMG_5519.jpg" alt="">
-                    <img class="img-responsive img-border img-full" src="img/IMG_5520.jpg" alt="" title="Coconut Shrimp from the Shrimp Station"></a>
+                    <img class="img-responsive img-border img-full" src="img/IMG_5563.jpg" alt="">
+                    <a href="http://www.theshrimpstation.com" target="_blank"><img class="img-responsive img-border img-full" src="img/IMG_5520.jpg" alt="" title="Coconut Shrimp from the Shrimp Station"></a>
                     <img class="img-responsive img-border img-full" src="img/IMG_5496.jpg" alt="" title="Hanalei Bay">
                     <img class="img-responsive img-border img-full" src="img/IMG_5517.jpg" alt="" title = "Kauai Coast Resort at the Beachboy">
-                    <img class="img-responsive img-border img-full" src="img/IMG_5521.jpg" alt="">
                     <img class="img-responsive img-border img-full" src="img/IMG_5522.jpg" alt="">
                     <img class="img-responsive img-border img-full" src="img/IMG_5494.jpg" alt="" title = "Noni Organic Farm">
                     <img class="img-responsive img-border img-full" src="img/IMG_5083.jpg" alt="">
@@ -236,6 +253,7 @@
         </div>
 
     </div>
+    <div class="fb-comments" data-href="http://www.theharrellstravels.com" data-width="num_posts" data-numposts="7"></div>
 
     <!-- /.container -->
 
